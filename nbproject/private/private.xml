@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/B360/Documents/NetBeansProjects/OnlineLearning/src/java/controller/UserRegisterController.java</file>
+            <file>file:/C:/Users/B360/Documents/NetBeansProjects/OnlineLearning/src/java/model/role.java</file>
+            <file>file:/C:/Users/B360/Documents/NetBeansProjects/OnlineLearning/src/java/connect/DBConnect.java</file>
+            <file>file:/C:/Users/B360/Documents/NetBeansProjects/OnlineLearning/src/java/controller/UserLoginController.java</file>
+            <file>file:/C:/Users/B360/Documents/NetBeansProjects/OnlineLearning/src/java/controller/UserUpdateProfileController.java</file>
+            <file>file:/C:/Users/B360/Documents/NetBeansProjects/OnlineLearning/src/java/model/User.java</file>
+            <file>file:/C:/Users/B360/Documents/NetBeansProjects/OnlineLearning/src/java/service/UserService.java</file>
+            <file>file:/C:/Users/B360/Documents/NetBeansProjects/OnlineLearning/src/java/controller/UserForgotPasswordController.java</file>
+        </group>
+    </open-files>
+</project-private>
