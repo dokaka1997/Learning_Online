@@ -16,6 +16,18 @@
         <servlet-name>UserForgotPasswordController</servlet-name>
         <servlet-class>controller.UserForgotPasswordController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>HomeController</servlet-name>
+        <servlet-class>controller.HomeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserLogoutController</servlet-name>
+        <servlet-class>controller.UserLogoutController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SetingListController</servlet-name>
+        <servlet-class>controller.SetingListController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>UserLoginController</servlet-name>
         <url-pattern>/UserLoginController</url-pattern>
@@ -31,6 +43,18 @@
     <servlet-mapping>
         <servlet-name>UserForgotPasswordController</servlet-name>
         <url-pattern>/UserForgotPasswordController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HomeController</servlet-name>
+        <url-pattern>/HomeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserLogoutController</servlet-name>
+        <url-pattern>/UserLogoutController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SetingListController</servlet-name>
+        <url-pattern>/SetingListController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

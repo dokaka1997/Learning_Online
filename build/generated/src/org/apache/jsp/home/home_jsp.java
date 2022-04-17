@@ -45,7 +45,7 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html lang=\"en\">\n");
       out.write("\n");
       out.write("<head>\n");
-      out.write("    <meta charset=\"UTF-8\">\n");
+      out.write("   <meta charset=\"UTF-8\">\n");
       out.write("    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n");
       out.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
       out.write("    <!-- Global style -->\n");
@@ -58,9 +58,9 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\n");
       out.write("        integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">\n");
       out.write("    <!-- Add the slick-theme.css if you want default styling -->\n");
-      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\" />\n");
+      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\" />\n");
       out.write("    <!-- Add the slick-theme.css if you want default styling -->\n");
-      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css\" />\n");
+      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css\" />\n");
       out.write("    <!-- Option 1: Bootstrap Bundle with Popper -->\n");
       out.write("    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\"\n");
       out.write("        integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\"\n");
@@ -69,14 +69,12 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js\"></script>\n");
       out.write("\n");
       out.write("    <!-- Slick -->\n");
-      out.write("    <script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>\n");
+      out.write("    <script type=\"text/javascript\" src=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"></script>\n");
       out.write("\n");
       out.write("    <title>OLS App</title>\n");
       out.write("</head>\n");
-      out.write("\n");
       out.write("<body>\n");
-      out.write("    <!-- Header -->\n");
-      out.write("    <nav class=\"navbar navbar-expand-lg sticky-top navbar-light bg-white shadow\">\n");
+      out.write("   <nav class=\"navbar navbar-expand-lg sticky-top navbar-light bg-white shadow\">\n");
       out.write("        <div class=\"container\">\n");
       out.write("            <a class=\"navbar-brand\" href=\"#\">\n");
       out.write("                <img src='../assets/logo-unica.png' alt='logo'>\n");
@@ -339,7 +337,6 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        </div>\n");
       out.write("    </footer>\n");
       out.write("</body>\n");
-      out.write("\n");
       out.write("<script>\n");
       out.write("    const bestSeller = [\n");
       out.write("        {\n");
@@ -508,7 +505,6 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        return number.toLocaleString('it-IT', { style: 'currency', currency: 'VND' });\n");
       out.write("    }\n");
       out.write("</script>\n");
-      out.write("\n");
       out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
